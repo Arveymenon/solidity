@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "count",
+						"type": "uint256"
+					}
+				],
+				"name": "createBulkContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_contractIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getContract",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_max",
+						"type": "uint256"
+					}
+				],
+				"name": "getRandomNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x4a065febc8b786ae6ddf7a45142bbc8e9f5c419db3a8bd9c7f230d5c706a7ca9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://201d8f6db4c2c805ddf2a83cbdf9878892724a937af4ff8013ed2dffa60c0842",
+				"dweb:/ipfs/QmXDB72u9Fiw7eiWXzWezgk1XTWhecDeRL8ypGzAb16wZ2"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x055f5b7db69146f6596eacc47b2306b4eae332831070b6d8028bd6897893a2b6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be56335dfefa32476be4290f4ee21f507596f7d6febbb1dfaeef19d6a6fb5a70",
+				"dweb:/ipfs/QmV1dDmrr5kY2YJzgAJFdE132hLv9YG29kbBn3Xfg1jCub"
+			]
+		}
+	},
+	"version": 1
+}
